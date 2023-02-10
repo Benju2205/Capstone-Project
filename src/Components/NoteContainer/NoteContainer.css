@@ -1,0 +1,40 @@
+*{
+    background-color: rgb(85, 163, 122);
+}
+
+.heading{
+    margin-bottom: 10px;
+}
+
+h4{
+    background: darkslategray;
+    color: whitesmoke;
+}
+
+.note-container{
+    height: 100%;    
+    
+}
+
+.note-container h2{
+    margin-bottom: 20px;
+}
+
+.note-container_notes {
+    height:auto;
+    /* width: auto; */
+    /* margin: 0px 100px; */
+    padding: 10px;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+    background: darkslategray;
+    
+    border-radius: 25px;
+    
+
+}
+
